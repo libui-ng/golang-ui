@@ -1,6 +1,6 @@
-# ui: platform-native GUI library for Go
+# golang-ui: platform-native GUI library for Go
 
-This is a library that aims to provide simple GUI software development in Go. It is based on my [libui](https://github.com/andlabs/libui), a simple cross-platform library that does the same thing, but written in C.
+This is a library that aims to provide simple GUI software development in Go. Fork of [andlabs/ui](https://github.com/andlabs/ui).<br>It is based on [libui-ng](https://github.com/libui-ng/libui-ng), a simple cross-platform library that does the same thing, but written in C.
 
 It runs on/requires:
 
@@ -12,18 +12,16 @@ It runs on/requires:
 
 It also requires Go 1.8 or newer.
 
-It currently aligns to libui's Alpha 4.1, with only a small handful of functions not available.
-
 # Status
 
-Package ui is currently **mid-alpha** software. Much of what is currently present runs stabily enough for the examples and perhaps some small programs to work, but the stability is still a work-in-progress, much of what is already there is not feature-complete, some of it will be buggy on certain platforms, and there's a lot of stuff missing. The libui README has more information.
+Package golang-ui is currently **mid-alpha** software. Much of what is currently present runs stabily enough for the examples and perhaps some small programs to work, but the stability is still a work-in-progress, much of what is already there is not feature-complete, some of it will be buggy on certain platforms, and there's a lot of stuff missing. The libui-ng README has more information.
 
 # Installation
 
 Once you have the dependencies installed, a simple
 
 ```
-go get github.com/andlabs/ui/...
+go get github.com/libui-ng/golang-ui/...
 ```
 
 should suffice.
