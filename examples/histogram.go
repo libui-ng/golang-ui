@@ -8,8 +8,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/andlabs/ui"
-	_ "github.com/andlabs/ui/winmanifest"
+	"github.com/libui-ng/golang-ui"
+	_ "github.com/libui-ng/golang-ui/winmanifest"
 )
 
 var (

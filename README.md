@@ -39,7 +39,7 @@ Package ui requires a manifest that specifies Common Controls v6 to run on Windo
 The simplest option is provided as a subpackage `winmanifest`; you can simply import it without a name, and it'll set things up properly:
 
 ```go
-import _ "github.com/andlabs/ui/winmanifest"
+import _ "github.com/libui-ng/golang-ui/winmanifest"
 ```
 
 You do not have to worry about importing this in non-Windows-only files; it does nothing on non-Windows platforms.
@@ -56,4 +56,4 @@ Note that if you choose to ship a manifest as a separate `.exe.manifest` file in
 
 ## macOS program execution
 
-If you run a macOS program binary directly from the command line, it will start in the background. This is intentional; see [this](https://github.com/andlabs/libui#why-does-my-program-start-in-the-background-on-os-x-if-i-run-from-the-command-line) for more details.
+If you run a macOS program binary directly from the command line, it will start in the background. This is intentional; see [this](https://github.com/libui-ng/libui-ng#why-does-my-program-start-in-the-background-on-os-x-if-i-run-from-the-command-line) for more details.

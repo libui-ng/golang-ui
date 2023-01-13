@@ -3,7 +3,7 @@
 // Package winmanifest provides a basic manifest for use with
 // package ui. You import it for its side effects only, as
 // 
-// 	import _ "github.com/andlabs/ui/winmanifest"
+// 	import _ "github.com/libui-ng/golang-ui/winmanifest"
 // 
 // On non-Windows platforms this package does nothing.
 // 

@@ -4,11 +4,11 @@
 
 package main
 
-// TODO probably a bug in libui: changing the font away from skia leads to a crash
+// TODO probably a bug in libui-ng: changing the font away from skia leads to a crash
 
 import (
-	"github.com/andlabs/ui"
-	_ "github.com/andlabs/ui/winmanifest"
+	"github.com/libui-ng/golang-ui"
+	_ "github.com/libui-ng/golang-ui/winmanifest"
 )
 
 var (
